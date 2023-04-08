@@ -1,0 +1,58 @@
+package variables_defind;
+
+public class Test_all_verables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//VARIABLES DECLARATION DON..!
+		
+        int a = 10; //a=10 
+        System.out.println("int value is :" + a);
+        
+        long b=a; //b=a : a =10 : b=10
+        System.out.println("long value is: " + b);
+        
+        float c=(float)a; //c=a ; a=10 ; c=10
+        System.out.println("float value is :" + c);
+        
+        double e=(double)c; // c=10.0; e=c ; e=10.00
+        System.out.println("double value is : " + e);
+      //  char cr= "A" ;
+     //   System.out.println("CHAR value is " + cr );
+        String srt= "numbers";
+        System.out.println("String valus is :"   +    srt );
+        
+        //ARRYS declaration DON ..!
+        
+        
+      int arr [];
+      arr =  new int  [10];
+      arr[0]=100;
+      arr[1]=200;
+      arr[2]=300;
+      arr[3]=400;
+      arr[4]=500;
+      arr[5]=600;
+      arr[6]=700;
+      arr[7]=800;
+      arr[8]=900;
+      arr[9]=1000;
+      
+      System.out.println("arr idex 0 : " + arr[0]);
+      System.out.println("arr idex 1 : " + arr[1]);
+      System.out.println("arr idex 2 : " + arr[2]);
+      System.out.println("arr idex 3 : " + arr[3]);
+      System.out.println("arr idex 4 : " + arr[4]);
+      System.out.println("arr idex 5 : " + arr[5]);
+      System.out.println("arr idex 6 : " + arr[6]);
+      System.out.println("arr idex 7 : " + arr[7]);
+      
+      System.out.println("arr idex 8 : " + arr[8]);
+      System.out.println("arr idex 9 : " + arr[9]);
+      System.out.println("arr idex 9 : " + arr);
+		
+		
+	}
+
+}
